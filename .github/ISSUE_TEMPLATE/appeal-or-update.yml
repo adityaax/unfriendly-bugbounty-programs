@@ -1,0 +1,46 @@
+name: Appeal or Update a Report
+description: If you're a company representative or researcher who wants to appeal, update, or clarify a report.
+title: "[Appeal] Company Name - Optional Context"
+labels: ["appeal", "discussion"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ This form is for clarifications or appeals related to existing reports.  
+        Be respectful, factual, and attach proof if possible.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company or Program Name
+      placeholder: Example Company
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why are you appealing or updating this report?
+      description: Be clear and factual. Explain your side.
+      placeholder: e.g., We actually responded on X date. Here's the full context...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proof
+    attributes:
+      label: Any proof or additional context
+      description: Screenshots, emails, links to write-ups, etc.
+      placeholder: Paste links or describe the evidence here
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Confirm
+      options:
+        - label: I understand this submission will be public and reviewed by maintainers.
+          required: true
