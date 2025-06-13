@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report an Unfriendly Bug Bounty Program
+    url: .github/ISSUE_TEMPLATE/report-unfriendly.yml
+    about: Submit a new report about a company that ghosted or denied rewards.
+  - name: Appeal or Update a Report
+    url: .github/ISSUE_TEMPLATE/appeal-or-update.yml
+    about: For companies or researchers to appeal or clarify an existing report.
+  - name: General Feedback or Questions
+    url: .github/ISSUE_TEMPLATE/general-feedback.yml
+    about: Share ideas, suggestions, or ask anything else.
