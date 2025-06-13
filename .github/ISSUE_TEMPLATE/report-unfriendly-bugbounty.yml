@@ -1,0 +1,74 @@
+name: Report Unfriendly Bug Bounty Program
+description: Submit a new case where a company failed to reward or respond properly
+title: "[Report] Company Name - Issue Type"
+labels: report
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following details to help us process your report.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Name of the company or program
+      placeholder: example.com
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: issue_type
+    attributes:
+      label: Type of issue
+      description: Select one or more that apply
+      options:
+        - label: Silent patch
+          value: silent_patch
+        - label: No bounty or swag
+          value: no_bounty
+        - label: Ghosted after report
+          value: ghosted
+        - label: Other (please specify)
+          value: other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Brief description of the incident
+      placeholder: >
+        Describe what happened in detail.
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      description: |
+        Provide dates for report sent, response, patch date, etc.
+      placeholder: |
+        Report sent: DD/MM/YYYY
+        Response received: DD/MM/YYYY
+        Last contact: DD/MM/YYYY
+        Patch date (if applicable): DD/MM/YYYY
+
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof
+      description: Links to write-ups, screenshots, tweets, or public posts
+      placeholder: >
+        https://example.com/proof
+
+  - type: input
+    id: researcher_handle
+    attributes:
+      label: Your handle (optional)
+      description: Your Twitter/GitHub handle or leave blank
+      placeholder: @yourhandle
