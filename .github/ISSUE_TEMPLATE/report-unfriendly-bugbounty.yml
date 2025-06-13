@@ -37,7 +37,7 @@ body:
       label: Summary
       description: Describe what happened briefly
       placeholder: |
-        I reported a valid XSS to example.com on 03/01/2025, they confirmed and never replied after...
+        I reported a valid XSS to example.com on 03/01/2025. They confirmed but never responded.
     validations:
       required: true
 
@@ -57,8 +57,7 @@ body:
     attributes:
       label: Proof or Evidence
       description: Optional. Include screenshots, links, tweets, etc.
-      placeholder: |
-        https://example.com/proof
+      placeholder: https://example.com/proof
 
   - type: input
     id: researcher_handle
@@ -70,7 +69,7 @@ body:
   - type: checkboxes
     id: agreement
     attributes:
-      label: Confirm
+      label: Confirmation
       options:
-        - label: I confirm this is based on my real experience and written respectfully.
+        - label: I confirm this is based on my real experience and is respectful.
           required: true
