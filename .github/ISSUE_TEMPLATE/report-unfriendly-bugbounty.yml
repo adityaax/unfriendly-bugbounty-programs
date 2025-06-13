@@ -1,6 +1,6 @@
 name: Report Unfriendly Bug Bounty Program
-description: Submit a new case where a company failed to reward or respond properly
-title: "[Report] Company Name - Issue Type"
+description: Submit a case where a company failed to reward, respond, or ghosted after a report.
+title: "[Report] Company Name - Issue Summary"
 labels: ["report"]
 assignees: []
 
@@ -8,14 +8,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        🐞 Please fill out the following form honestly and respectfully.  
-        This helps others avoid wasting time on unfair programs.
+        🐞 Thank you for submitting a report.  
+        Please fill in as many details as possible to help the community.
 
   - type: input
     id: company
     attributes:
-      label: Company or Program Name
-      description: Name of the company or site
+      label: Company Name
+      description: Name of the company or program involved
       placeholder: example.com
     validations:
       required: true
@@ -23,21 +23,23 @@ body:
   - type: checkboxes
     id: issue_type
     attributes:
-      label: Type of Issue
-      description: Select all that apply
+      label: What happened?
+      description: Select one or more that best describe your experience.
       options:
-        - label: Silent patch (fixed the bug without informing me)
-        - label: No bounty or swag (despite in-scope report)
-        - label: Ghosted after report (no reply)
+        - label: Silent patch (company fixed the bug but didn’t inform or reward)
+        - label: No bounty or swag given
+        - label: Ghosted after submission
         - label: Other (please explain in summary)
+    validations:
+      required: true
 
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: Describe what happened briefly
+      label: Summary of the Incident
+      description: Briefly describe what happened
       placeholder: |
-        I reported a valid XSS to example.com on 03/01/2025. They confirmed but never responded.
+        e.g. I reported an RCE bug on 12 March, they patched it silently on 20 March, and never responded.
     validations:
       required: true
 
@@ -45,31 +47,37 @@ body:
     id: timeline
     attributes:
       label: Timeline
-      description: Key dates and interactions
+      description: Important dates like report date, last contact, patch date, etc.
       placeholder: |
-        Report sent: DD/MM/YYYY
-        Response received: DD/MM/YYYY
-        Last contact: DD/MM/YYYY
-        Patch date (if applicable): DD/MM/YYYY
+        - Report sent: DD/MM/YYYY
+        - Response received: DD/MM/YYYY
+        - Last contact: DD/MM/YYYY
+        - Patch date (if applicable): DD/MM/YYYY
+    validations:
+      required: false
 
   - type: textarea
     id: proof
     attributes:
       label: Proof or Evidence
-      description: Optional. Include screenshots, links, tweets, etc.
-      placeholder: https://example.com/proof
+      description: Add links to screenshots, writeups, tweets, or other proof (if any)
+      placeholder: https://example.com/my-report
+    validations:
+      required: false
 
   - type: input
     id: researcher_handle
     attributes:
       label: Your Handle (optional)
-      description: GitHub, Twitter, or other handle (can be blank)
-      placeholder: @yourhandle
+      description: Your GitHub, Twitter, or LinkedIn handle (optional)
+      placeholder: "@yourhandle"
+    validations:
+      required: false
 
   - type: checkboxes
     id: agreement
     attributes:
       label: Confirmation
       options:
-        - label: I confirm this is based on my real experience and is respectful.
+        - label: I confirm this is based on my personal experience and is respectful.
           required: true
