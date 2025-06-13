@@ -1,20 +1,21 @@
 name: Report Unfriendly Bug Bounty Program
 description: Submit a new case where a company failed to reward or respond properly
 title: "[Report] Company Name - Issue Type"
-labels: report
+labels: ["report"]
 assignees: []
 
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the following details to help us process your report.
+        🐞 Please fill out the following form honestly and respectfully.  
+        This helps others avoid wasting time on unfair programs.
 
   - type: input
     id: company
     attributes:
-      label: Company
-      description: Name of the company or program
+      label: Company or Program Name
+      description: Name of the company or site
       placeholder: example.com
     validations:
       required: true
@@ -22,23 +23,22 @@ body:
   - type: checkboxes
     id: issue_type
     attributes:
-      label: Type of issue
-      description: Select one or more that apply
+      label: Type of Issue
+      description: Select all that apply
       options:
-        - label: Silent patch
-        - label: No bounty or swag
-        - label: Ghosted after report
-        - label: Other (please specify)
-        - label: I confirm this is based on my experience and is respectful.
-          required: true
+        - label: Silent patch (fixed the bug without informing me)
+        - label: No bounty or swag (despite in-scope report)
+        - label: Ghosted after report (no reply)
+        - label: Other (please explain in summary)
 
   - type: textarea
     id: summary
     attributes:
       label: Summary
-      description: Brief description of the incident
-      placeholder: >
-        Describe what happened in detail.
+      description: Describe what happened briefly
+      placeholder: |
+        I reported a valid XSS to example.com on 03/01/2025, they confirmed and never replied after...
+
     validations:
       required: true
 
@@ -46,8 +46,7 @@ body:
     id: timeline
     attributes:
       label: Timeline
-      description: |
-        Provide dates for report sent, response, patch date, etc.
+      description: Key dates and interactions
       placeholder: |
         Report sent: DD/MM/YYYY
         Response received: DD/MM/YYYY
@@ -57,14 +56,22 @@ body:
   - type: textarea
     id: proof
     attributes:
-      label: Proof
-      description: Links to write-ups, screenshots, tweets, or public posts
-      placeholder: >
+      label: Proof or Evidence
+      description: Optional. Include screenshots, links, tweets, etc.
+      placeholder: |
         https://example.com/proof
 
   - type: input
     id: researcher_handle
     attributes:
-      label: Your handle (optional)
-      description: Your Twitter/GitHub/LinkedIn handle or leave blank
+      label: Your Handle (optional)
+      description: GitHub, Twitter, or other handle (can be blank)
       placeholder: @yourhandle
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Confirm
+      options:
+        - label: I confirm this is based on my real experience and written respectfully.
+          required: true
