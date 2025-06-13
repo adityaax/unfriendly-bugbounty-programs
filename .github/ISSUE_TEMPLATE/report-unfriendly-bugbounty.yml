@@ -79,4 +79,6 @@ body:
       label: Final Check
       options:
         - label: I confirm this is based on my experience and is respectful.
-          required: true
+          value: confirm
+    validations:
+      required: true
