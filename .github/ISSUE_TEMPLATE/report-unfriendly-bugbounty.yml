@@ -14,8 +14,8 @@ body:
   - type: input
     id: company
     attributes:
-      label: Company Name
-      description: Name of the company or program involved
+      label: Company Domain
+      description: Domain of the company or program involved
       placeholder: example.com
     validations:
       required: true
