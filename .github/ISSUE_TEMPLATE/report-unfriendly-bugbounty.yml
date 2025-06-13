@@ -54,7 +54,7 @@ body:
         - Last contact: DD/MM/YYYY
         - Patch date (if applicable): DD/MM/YYYY
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: proof
@@ -63,7 +63,7 @@ body:
       description: Add links to screenshots, writeups, tweets, or other proof (if any)
       placeholder: https://example.com/my-report
     validations:
-      required: false
+      required: true
 
   - type: input
     id: researcher_handle
@@ -92,3 +92,5 @@ body:
       options:
         - label: I confirm this is based on my personal experience and is respectful.
           required: true
+    validations:
+      required: true
