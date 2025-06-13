@@ -21,18 +21,10 @@ A valid vulnerability was reported to Example Company through their contact form
 
 ## 🔗 Proof
 
-- [Write-up / Blog Post](https://example.com/writeup)
+- [Write-up / Blog Post](https://example.com/writeup)  
 - [Archived company response (screenshot)](https://imgur.com/example)
 
 ## 🙋‍♂️ Researcher
 
 - GitHub: [@bughunter](https://github.com/bughunter)  
 - Twitter: [@bughunter](https://twitter.com/bughunter)
-
-## 🔁 Status
-
-- Company notified about this listing: Yes (no response)
-
----
-
-> 📌 This entry is based on factual events and publicly shareable proof. If you're a representative of Example Company and would like to address or update this case, please open an issue or pull request.
