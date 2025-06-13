@@ -75,6 +75,17 @@ body:
       required: false
 
   - type: checkboxes
+    id: program_status
+    attributes:
+      label: Has the company shut down their bug bounty program?
+      options:
+        - label: Yes, the program has been shut down.
+        - label: No, the program is still active.
+        - label: I am not sure about the status.
+    validations:
+      required: true
+
+  - type: checkboxes
     id: agreement
     attributes:
       label: Confirmation
