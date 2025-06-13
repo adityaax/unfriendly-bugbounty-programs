@@ -36,7 +36,7 @@ If your company is listed here and you:
 - Have resolved the issue with the researcher  
 - Would like to provide an official update or statement
 
-Please open a GitHub issue with:
+Please open a GitHub issue or contact us at **adityaax@proton.me** with:
 
 - Company name  
 - Explanation or update  
