@@ -38,7 +38,6 @@ body:
       description: Describe what happened briefly
       placeholder: |
         I reported a valid XSS to example.com on 03/01/2025, they confirmed and never replied after...
-
     validations:
       required: true
 
