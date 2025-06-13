@@ -30,7 +30,7 @@ Community leaders are responsible for clarifying standards of acceptable behavio
 
 ## Reporting
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainers at **[your_email@example.com]**.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainers at **adityaax@proton.me**
 
 All complaints will be reviewed and investigated promptly and fairly.
 
