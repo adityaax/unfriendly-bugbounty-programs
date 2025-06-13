@@ -70,5 +70,13 @@ body:
     id: researcher_handle
     attributes:
       label: Your handle (optional)
-      description: Your Twitter/GitHub handle or leave blank
+      description: Your Twitter/GitHub/LinkedIn handle or leave blank
       placeholder: @yourhandle
+
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Final Check
+      options:
+        - label: I confirm this is based on my experience and is respectful.
+          required: true
