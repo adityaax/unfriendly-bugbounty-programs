@@ -26,15 +26,11 @@ body:
       description: Select one or more that apply
       options:
         - label: Silent patch
-          value: silent_patch
         - label: No bounty or swag
-          value: no_bounty
         - label: Ghosted after report
-          value: ghosted
         - label: Other (please specify)
-          value: other
-    validations:
-      required: true
+        - label: I confirm this is based on my experience and is respectful.
+          required: true
 
   - type: textarea
     id: summary
@@ -72,10 +68,3 @@ body:
       label: Your handle (optional)
       description: Your Twitter/GitHub/LinkedIn handle or leave blank
       placeholder: @yourhandle
-  - type: checkboxes
-      id: agreement
-      attributes:
-        label: Confirm
-        options:
-          - label: I confirm this is based on my experience and is respectful.
-            required: true
