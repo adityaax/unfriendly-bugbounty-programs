@@ -23,7 +23,7 @@ body:
   - type: checkboxes
     id: issue_type
     attributes:
-      label: What happened?
+      label: What Happened?
       description: Select one or more that best describe your experience.
       options:
         - label: Silent patch (company fixed the bug but didn’t inform or reward)
