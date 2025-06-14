@@ -52,6 +52,13 @@ To report your experience, please open a [new GitHub issue](https://github.com/a
 
 Alternatively, you can submit a pull request adding your case to the `programs/` folder following the contribution guidelines.
 
+## 🙌 Contributors
+
+Special thanks to the following people for their valuable issue reports and suggestions:
+
+- [@fraklinde3mon](https://github.com/fraklinde3mon)
+- [@FancybearIN](https://github.com/FancybearIN)
+
 ---
 
 ## 🛡️ Respectful and Verified Submissions Only
