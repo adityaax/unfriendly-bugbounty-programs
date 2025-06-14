@@ -21,7 +21,7 @@ However, this is misleading, as the payload could be reflected in any user's bro
 
 ### Timeline
 
-- Report sent: 19/11/2024
+- First report sent: 19/11/2024
 - Response received: 08/05/2025
 - Last contact: 13/05/2025
 
