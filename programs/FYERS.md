@@ -2,7 +2,7 @@
 
 fyers.in
 
-### What happened?
+### What Happened?
 
 - [x] Silent patch (company fixed the bug but didn’t inform or reward)
 - [x] No bounty or swag given
