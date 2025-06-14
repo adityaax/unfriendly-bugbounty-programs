@@ -52,6 +52,10 @@ To report your experience, please open a [new GitHub issue](https://github.com/a
 
 Alternatively, you can submit a pull request adding your case to the `programs/` folder following the contribution guidelines.
 
+## 🕵️‍♂️ Prefer to Stay Anonymous?
+If you don't want to reveal your identity while submitting a report, you can email me directly.
+I will list your report under Anonymous, but only for legit and verified submissions.
+
 ## 🙌 Contributors
 
 Special thanks to the following people for their valuable issue reports and suggestions:
