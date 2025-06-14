@@ -49,7 +49,7 @@ body:
       label: Timeline
       description: Important dates like report date, last contact, patch date, etc.
       placeholder: |
-        - Report sent: DD/MM/YYYY
+        - First report sent: DD/MM/YYYY
         - Response received: DD/MM/YYYY
         - Last contact: DD/MM/YYYY
         - Patch date (if applicable): DD/MM/YYYY
