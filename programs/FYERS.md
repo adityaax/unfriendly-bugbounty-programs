@@ -33,7 +33,7 @@ However, this is misleading, as the payload could be reflected in any user's bro
 
 ### Your Handle (optional)
 
-https://github.com/fraklinde3mon
+GitHub: [@fraklinde3mon](https://github.com/fraklinde3mon)
 
 ### Has the company shut down their bug bounty program?
 
