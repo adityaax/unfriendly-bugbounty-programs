@@ -1,4 +1,6 @@
-# 🚫 Unfriendly Bug Bounty Programs
+![Unfriendly Bug Bounty Programs Banner](./banner.png)
+
+# 😤 Unfriendly Bug Bounty Programs
 
 A community-curated list of companies and platforms that have demonstrated unfriendly or unfair behavior towards security researchers and bug hunters. This includes cases where valid vulnerability reports were:
 
