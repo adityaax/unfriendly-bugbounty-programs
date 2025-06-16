@@ -83,4 +83,7 @@ Inspired by the need for greater transparency in the bug bounty ecosystem, this 
 
 ---
 
+## 🙌 Support
+If you find this useful, give the repo a ⭐ and share it with fellow researchers.
+
 *Thank you to all the security researchers and ethical hackers who help make the digital world safer!*
