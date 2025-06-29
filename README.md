@@ -62,6 +62,7 @@ Special thanks to the following people for their valuable issue reports and sugg
 
 - [@fraklinde3mon](https://github.com/fraklinde3mon)
 - [@FancybearIN](https://github.com/FancybearIN)
+- [@adith-suhas-sv](https://github.com/adith-suhas-sv)
 
 ---
 
