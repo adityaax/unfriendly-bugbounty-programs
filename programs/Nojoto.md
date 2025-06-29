@@ -11,7 +11,7 @@ nojoto.com
 
 ### Summary of the Incident
 
-I am aware that some researchers received appreciation letters from Nojoto for reporting vulnerabilities. In my case, I reported several bugs, including one with a high impact — a stored blind XSS — around two years ago. However, I have not received any appreciation letter or reward so far, even though your stated range for high-severity bugs is ₹2,500 to ₹10,000.
+Anonymous is aware that some researchers received appreciation letters from Nojoto for reporting vulnerabilities. In this case, Anonymous reported several bugs, including one with a high impact — a stored blind XSS — around two years ago. However, He has not received any appreciation letter or reward so far, even though your stated range for high-severity bugs is ₹2,500 to ₹10,000.
 
 ### Timeline
 
