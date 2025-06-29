@@ -11,9 +11,9 @@ lava.top
 
 ### Summary of the Incident
 
-I reported some bugs to lava.top, at first they acknowledged(14 Nov 2025) but later rejected those submissions by saying that the program is temporarily paused.(13 Jan 2025)
+Anonymous reported some bugs to lava.top, at first they acknowledged(14 Nov 2025) but later rejected those submissions by saying that the program is temporarily paused.(13 Jan 2025)
 As the general rule suggest that valid bugs submitted before the pause of the program must be processed. Why they acknowledged the bugs first?
-As of June 2025 there program is still active, I think so because the page is still there and there is no statement about the pause of the program. They are not interested in following the policy.
+As of June 2025 there program is still active, Anonymous think so because the page is still there and there is no statement about the pause of the program. They are not interested in following the policy.
 
 ### Timeline
 
