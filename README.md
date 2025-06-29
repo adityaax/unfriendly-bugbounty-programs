@@ -60,6 +60,7 @@ I will list your report under Anonymous, but only for legit and verified submiss
 
 Special thanks to the following people for their valuable issue reports and suggestions:
 
+- Anonymous (those who don’t want to reveal their identity)
 - [@fraklinde3mon](https://github.com/fraklinde3mon)
 - [@FancybearIN](https://github.com/FancybearIN)
 - [@adith-suhas-sv](https://github.com/adith-suhas-sv)
