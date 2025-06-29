@@ -11,7 +11,7 @@ computerbaba.co.in
 
 ### Summary of the Incident
 
-Reported my first bug on February 6, 2024. After receiving an initial response, the company stopped replying and completely ghosted me. Their Hall of Fame page lists only two names—likely those who reported right after the program launched. Now, more than a year later, I still haven’t received any further response from them.
+Anonymous reported his first bug on February 6, 2024. After receiving an initial response, the company stopped replying and completely ghosted me. Their Hall of Fame page lists only two names—likely those who reported right after the program launched. Now, more than a year later, he still haven’t received any further response from them.
 
 ### Timeline
 
