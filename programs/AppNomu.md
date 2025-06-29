@@ -11,7 +11,7 @@ appnomu.com
 
 ### Summary of the Incident
 
-Reported my first bug on Tuesday, 4 Mar 2025, and a total of 8 issues including SQL injection, account takeover, and business logic flaws. Initially, the team acknowledged the reports, but later rejected all of them citing that the submissions came from the same IP and country, which they claimed made them unverifiable. This is not a valid excuse to dismiss genuine vulnerabilities. Also tried reaching out via their WhatsApp, but that didn’t help either.
+Anonymous reported his first bug on Tuesday, 4 Mar 2025, and a total of 8 issues including SQL injection, account takeover, and business logic flaws. Initially, the team acknowledged the reports, but later rejected all of them citing that the submissions came from the same IP and country, which they claimed made them unverifiable. This is not a valid excuse to dismiss genuine vulnerabilities. Also he tried reaching out via their WhatsApp, but that didn’t help either.
 
 ### Timeline
 
