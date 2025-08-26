@@ -81,6 +81,7 @@ body:
       options:
         - label: Yes, the program has been shut down.
         - label: No, the program is still active.
+        - label: The program has been moved to invite-only.
         - label: I am not sure about the status.
     validations:
       required: true
