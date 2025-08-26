@@ -11,7 +11,7 @@ brioni.com
 
 ### Summary of the Incident
 
-On May 3, 2025, mrknight-nidu discovered an HTML injection vulnerability in the search parameter of Brioni’s main domain (brioni.com). By chaining it with an XSS payload (<a href="javascript:alert('PoC by mrknight-nidu');alert(document.cookie)">Click</a>), He confirmed a working XSS vulnerability. He submitted a detailed proof-of-concept (PoC) through Brioni’s VDP form. On May 8, 2025, He retested and found the vulnerability had been fixed, but received no communication from Brioni, no acknowledgment, no update, or thank-you. Follow-up attempts via LinkedIn and Instagram were also ignored.
+On May 3, 2025, security researcher mrknight-nidu discovered an HTML injection vulnerability in the search parameter of Brioni’s main domain (brioni.com). By chaining it with an XSS payload (<a href="javascript:alert('PoC by mrknight-nidu');alert(document.cookie)">Click</a>), he confirmed a working cross-site scripting (XSS) vulnerability. He submitted a detailed proof-of-concept (PoC) through Brioni’s Vulnerability Disclosure Program (VDP) form. On May 8, 2025, he retested and confirmed that the vulnerability had been fixed. However, he received no communication from Brioni—no acknowledgment, update, or even a thank-you. Follow-up attempts via LinkedIn and Instagram were also ignored.
 
 ### Timeline
 
